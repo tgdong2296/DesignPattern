@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MediatorViewController.swift
 //  DesignPattern
 //
 //  Created by Trịnh Giang Đông on 4/6/20.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MediatorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
 
+extension MediatorViewController: StoryboardSceneBased {
+    static var sceneStoryboard = StoryBoards.mediator
+}

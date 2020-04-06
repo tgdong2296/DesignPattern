@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		4538E367A1E781EBEA15F14F /* Pods_DesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */; };
 		F354C757243B0E70008224E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C756243B0E70008224E5 /* AppDelegate.swift */; };
-		F354C75B243B0E70008224E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C75A243B0E70008224E5 /* ViewController.swift */; };
 		F354C75E243B0E70008224E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354C75C243B0E70008224E5 /* Main.storyboard */; };
 		F354C760243B0E71008224E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F354C75F243B0E71008224E5 /* Assets.xcassets */; };
 		F354C763243B0E71008224E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354C761243B0E71008224E5 /* LaunchScreen.storyboard */; };
+		F354C76C243B5DFD008224E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C76B243B5DFD008224E5 /* MainViewController.swift */; };
+		F354C76F243B5E27008224E5 /* DesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C76E243B5E27008224E5 /* DesignPattern.swift */; };
+		F354C774243B5F06008224E5 /* StoryBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C773243B5F06008224E5 /* StoryBoards.swift */; };
+		F354C778243B5F66008224E5 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C776243B5F66008224E5 /* MainTableViewCell.swift */; };
+		F354C779243B5F66008224E5 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F354C777243B5F66008224E5 /* MainTableViewCell.xib */; };
+		F354C77B243B619D008224E5 /* MediatorPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354C77A243B619D008224E5 /* MediatorPattern.storyboard */; };
+		F354C77D243B61B6008224E5 /* MediatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C77C243B61B6008224E5 /* MediatorViewController.swift */; };
+		F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C77E243B6337008224E5 /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +28,19 @@
 		DFE1BBA2AC57758F541CD329 /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
 		F354C753243B0E70008224E5 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F354C756243B0E70008224E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F354C75A243B0E70008224E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F354C75D243B0E70008224E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F354C75F243B0E71008224E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F354C762243B0E71008224E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F354C764243B0E71008224E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F354C76B243B5DFD008224E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F354C76E243B5E27008224E5 /* DesignPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPattern.swift; sourceTree = "<group>"; };
+		F354C770243B5E6D008224E5 /* DesignPattern-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPattern-Bridging-Header.h"; sourceTree = "<group>"; };
+		F354C773243B5F06008224E5 /* StoryBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoards.swift; sourceTree = "<group>"; };
+		F354C776243B5F66008224E5 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		F354C777243B5F66008224E5 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		F354C77A243B619D008224E5 /* MediatorPattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MediatorPattern.storyboard; sourceTree = "<group>"; };
+		F354C77C243B61B6008224E5 /* MediatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorViewController.swift; sourceTree = "<group>"; };
+		F354C77E243B6337008224E5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +93,46 @@
 		F354C755243B0E70008224E5 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F354C76D243B5E0D008224E5 /* Mediator Pattern */,
+				F354C76A243B5DD3008224E5 /* Main */,
+				F354C77E243B6337008224E5 /* BaseNavigationController.swift */,
+				F354C76E243B5E27008224E5 /* DesignPattern.swift */,
+				F354C773243B5F06008224E5 /* StoryBoards.swift */,
 				F354C756243B0E70008224E5 /* AppDelegate.swift */,
-				F354C75A243B0E70008224E5 /* ViewController.swift */,
-				F354C75C243B0E70008224E5 /* Main.storyboard */,
 				F354C75F243B0E71008224E5 /* Assets.xcassets */,
 				F354C761243B0E71008224E5 /* LaunchScreen.storyboard */,
 				F354C764243B0E71008224E5 /* Info.plist */,
+				F354C770243B5E6D008224E5 /* DesignPattern-Bridging-Header.h */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		F354C76A243B5DD3008224E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F354C775243B5F4B008224E5 /* Cell */,
+				F354C76B243B5DFD008224E5 /* MainViewController.swift */,
+				F354C75C243B0E70008224E5 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F354C76D243B5E0D008224E5 /* Mediator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				F354C77C243B61B6008224E5 /* MediatorViewController.swift */,
+				F354C77A243B619D008224E5 /* MediatorPattern.storyboard */,
+			);
+			path = "Mediator Pattern";
+			sourceTree = "<group>";
+		};
+		F354C775243B5F4B008224E5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F354C776243B5F66008224E5 /* MainTableViewCell.swift */,
+				F354C777243B5F66008224E5 /* MainTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +169,7 @@
 				TargetAttributes = {
 					F354C752243B0E70008224E5 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -150,6 +198,8 @@
 			files = (
 				F354C763243B0E71008224E5 /* LaunchScreen.storyboard in Resources */,
 				F354C760243B0E71008224E5 /* Assets.xcassets in Resources */,
+				F354C77B243B619D008224E5 /* MediatorPattern.storyboard in Resources */,
+				F354C779243B5F66008224E5 /* MainTableViewCell.xib in Resources */,
 				F354C75E243B0E70008224E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,8 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F354C75B243B0E70008224E5 /* ViewController.swift in Sources */,
+				F354C774243B5F06008224E5 /* StoryBoards.swift in Sources */,
+				F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */,
+				F354C76C243B5DFD008224E5 /* MainViewController.swift in Sources */,
+				F354C76F243B5E27008224E5 /* DesignPattern.swift in Sources */,
+				F354C77D243B61B6008224E5 /* MediatorViewController.swift in Sources */,
 				F354C757243B0E70008224E5 /* AppDelegate.swift in Sources */,
+				F354C778243B5F66008224E5 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +404,7 @@
 			baseConfigurationReference = 720FB3E794A91E43D501F567 /* Pods-DesignPattern.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,6 +413,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DesignPattern/DesignPattern-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +425,7 @@
 			baseConfigurationReference = DFE1BBA2AC57758F541CD329 /* Pods-DesignPattern.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -375,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DesignPattern/DesignPattern-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
