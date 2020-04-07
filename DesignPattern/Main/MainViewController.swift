@@ -54,7 +54,7 @@ extension MainViewController: UITableViewDelegate {
         
         switch patterns[indexPath.row] {
         case .mediator:
-            viewController = MediatorViewController.instantiate()
+            viewController = SeekTabbarController()
         }
         
         let navigationController = BaseNavigationController(rootViewController: viewController)

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4538E367A1E781EBEA15F14F /* Pods_DesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */; };
+		F34CC8BC243C28FA006AC7EB /* MediatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CC8BB243C28FA006AC7EB /* MediatorType.swift */; };
+		F34CC8BE243C69B4006AC7EB /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CC8BD243C69B4006AC7EB /* Originator.swift */; };
+		F34CC8C0243C69E0006AC7EB /* SeekState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CC8BF243C69E0006AC7EB /* SeekState.swift */; };
 		F354C757243B0E70008224E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C756243B0E70008224E5 /* AppDelegate.swift */; };
 		F354C75E243B0E70008224E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354C75C243B0E70008224E5 /* Main.storyboard */; };
 		F354C760243B0E71008224E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F354C75F243B0E71008224E5 /* Assets.xcassets */; };
@@ -18,14 +21,18 @@
 		F354C778243B5F66008224E5 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C776243B5F66008224E5 /* MainTableViewCell.swift */; };
 		F354C779243B5F66008224E5 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F354C777243B5F66008224E5 /* MainTableViewCell.xib */; };
 		F354C77B243B619D008224E5 /* MediatorPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F354C77A243B619D008224E5 /* MediatorPattern.storyboard */; };
-		F354C77D243B61B6008224E5 /* MediatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C77C243B61B6008224E5 /* MediatorViewController.swift */; };
 		F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C77E243B6337008224E5 /* BaseNavigationController.swift */; };
+		F35E07FE243C18B5005E3C11 /* SeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E07FD243C18B5005E3C11 /* SeekViewController.swift */; };
+		F35E0800243C19FA005E3C11 /* SeekTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E07FF243C19FA005E3C11 /* SeekTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		720FB3E794A91E43D501F567 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 		DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE1BBA2AC57758F541CD329 /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
+		F34CC8BB243C28FA006AC7EB /* MediatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorType.swift; sourceTree = "<group>"; };
+		F34CC8BD243C69B4006AC7EB /* Originator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
+		F34CC8BF243C69E0006AC7EB /* SeekState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekState.swift; sourceTree = "<group>"; };
 		F354C753243B0E70008224E5 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F354C756243B0E70008224E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F354C75D243B0E70008224E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,8 +46,9 @@
 		F354C776243B5F66008224E5 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		F354C777243B5F66008224E5 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		F354C77A243B619D008224E5 /* MediatorPattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MediatorPattern.storyboard; sourceTree = "<group>"; };
-		F354C77C243B61B6008224E5 /* MediatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorViewController.swift; sourceTree = "<group>"; };
 		F354C77E243B6337008224E5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		F35E07FD243C18B5005E3C11 /* SeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekViewController.swift; sourceTree = "<group>"; };
+		F35E07FF243C19FA005E3C11 /* SeekTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F34CC8C1243C6A10006AC7EB /* Memento Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				F34CC8BF243C69E0006AC7EB /* SeekState.swift */,
+				F34CC8BD243C69B4006AC7EB /* Originator.swift */,
+			);
+			path = "Memento Pattern";
+			sourceTree = "<group>";
+		};
+		F34CC8C2243C6A31006AC7EB /* Mediator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				F34CC8BB243C28FA006AC7EB /* MediatorType.swift */,
+			);
+			path = "Mediator Pattern";
+			sourceTree = "<group>";
+		};
 		F354C74A243B0E6F008224E5 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +118,7 @@
 		F354C755243B0E70008224E5 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				F354C76D243B5E0D008224E5 /* Mediator Pattern */,
+				F354C76D243B5E0D008224E5 /* Mediator + Memento Pattern */,
 				F354C76A243B5DD3008224E5 /* Main */,
 				F354C77E243B6337008224E5 /* BaseNavigationController.swift */,
 				F354C76E243B5E27008224E5 /* DesignPattern.swift */,
@@ -117,13 +142,16 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		F354C76D243B5E0D008224E5 /* Mediator Pattern */ = {
+		F354C76D243B5E0D008224E5 /* Mediator + Memento Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				F354C77C243B61B6008224E5 /* MediatorViewController.swift */,
+				F34CC8C1243C6A10006AC7EB /* Memento Pattern */,
+				F34CC8C2243C6A31006AC7EB /* Mediator Pattern */,
+				F35E07FD243C18B5005E3C11 /* SeekViewController.swift */,
+				F35E07FF243C19FA005E3C11 /* SeekTabbarController.swift */,
 				F354C77A243B619D008224E5 /* MediatorPattern.storyboard */,
 			);
-			path = "Mediator Pattern";
+			path = "Mediator + Memento Pattern";
 			sourceTree = "<group>";
 		};
 		F354C775243B5F4B008224E5 /* Cell */ = {
@@ -253,12 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34CC8C0243C69E0006AC7EB /* SeekState.swift in Sources */,
 				F354C774243B5F06008224E5 /* StoryBoards.swift in Sources */,
 				F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */,
+				F35E07FE243C18B5005E3C11 /* SeekViewController.swift in Sources */,
 				F354C76C243B5DFD008224E5 /* MainViewController.swift in Sources */,
 				F354C76F243B5E27008224E5 /* DesignPattern.swift in Sources */,
-				F354C77D243B61B6008224E5 /* MediatorViewController.swift in Sources */,
 				F354C757243B0E70008224E5 /* AppDelegate.swift in Sources */,
+				F34CC8BC243C28FA006AC7EB /* MediatorType.swift in Sources */,
+				F35E0800243C19FA005E3C11 /* SeekTabbarController.swift in Sources */,
+				F34CC8BE243C69B4006AC7EB /* Originator.swift in Sources */,
 				F354C778243B5F66008224E5 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
