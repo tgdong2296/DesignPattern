@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		4538E367A1E781EBEA15F14F /* Pods_DesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */; };
+		F329F104244DC81700FBCD5D /* nguoi_tinh_mua_dong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F0FF244DC81400FBCD5D /* nguoi_tinh_mua_dong.mp4 */; };
+		F329F105244DC81700FBCD5D /* xe_dap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F100244DC81500FBCD5D /* xe_dap.mp4 */; };
+		F329F106244DC81700FBCD5D /* ngay_mai_em_di.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F101244DC81600FBCD5D /* ngay_mai_em_di.mp4 */; };
+		F329F107244DC81700FBCD5D /* co_chang_trai_viet_len_cay.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F102244DC81600FBCD5D /* co_chang_trai_viet_len_cay.mp4 */; };
+		F329F108244DC81700FBCD5D /* yeu_xa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F103244DC81700FBCD5D /* yeu_xa.mp4 */; };
+		F329F10B244DC89000FBCD5D /* StatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F329F10A244DC89000FBCD5D /* StatePatternViewController.swift */; };
+		F329F10D244DC8A600FBCD5D /* StatePattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F329F10C244DC8A600FBCD5D /* StatePattern.storyboard */; };
+		F329F110244DCBC800FBCD5D /* VideoControllerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F329F10F244DCBC800FBCD5D /* VideoControllerView.xib */; };
+		F329F112244DCBF400FBCD5D /* VideoControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F329F111244DCBF400FBCD5D /* VideoControllerView.swift */; };
+		F329F115244DD92700FBCD5D /* VideoStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F329F114244DD92700FBCD5D /* VideoStateType.swift */; };
+		F329F117244DD9BB00FBCD5D /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F329F116244DD9BB00FBCD5D /* PlayingState.swift */; };
+		F34A7F13244DDB0500744430 /* PauseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A7F12244DDB0500744430 /* PauseState.swift */; };
+		F34A7F15244DDBCF00744430 /* VideoContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A7F14244DDBCF00744430 /* VideoContext.swift */; };
+		F34A7F17244DDC3B00744430 /* PrepareState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A7F16244DDC3B00744430 /* PrepareState.swift */; };
+		F34A7F19244DE09100744430 /* SeekingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A7F18244DE09100744430 /* SeekingState.swift */; };
+		F34A7F1B244DE2D900744430 /* SeekEndState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A7F1A244DE2D900744430 /* SeekEndState.swift */; };
+		F34A7F1D244DF89700744430 /* SeekBeginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A7F1C244DF89700744430 /* SeekBeginState.swift */; };
 		F34CC8BC243C28FA006AC7EB /* MediatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CC8BB243C28FA006AC7EB /* MediatorType.swift */; };
 		F34CC8BE243C69B4006AC7EB /* Originator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CC8BD243C69B4006AC7EB /* Originator.swift */; };
 		F34CC8C0243C69E0006AC7EB /* SeekState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CC8BF243C69E0006AC7EB /* SeekState.swift */; };
@@ -30,6 +47,23 @@
 		720FB3E794A91E43D501F567 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 		DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE1BBA2AC57758F541CD329 /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
+		F329F0FF244DC81400FBCD5D /* nguoi_tinh_mua_dong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nguoi_tinh_mua_dong.mp4; sourceTree = "<group>"; };
+		F329F100244DC81500FBCD5D /* xe_dap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xe_dap.mp4; sourceTree = "<group>"; };
+		F329F101244DC81600FBCD5D /* ngay_mai_em_di.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ngay_mai_em_di.mp4; sourceTree = "<group>"; };
+		F329F102244DC81600FBCD5D /* co_chang_trai_viet_len_cay.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = co_chang_trai_viet_len_cay.mp4; sourceTree = "<group>"; };
+		F329F103244DC81700FBCD5D /* yeu_xa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeu_xa.mp4; sourceTree = "<group>"; };
+		F329F10A244DC89000FBCD5D /* StatePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternViewController.swift; sourceTree = "<group>"; };
+		F329F10C244DC8A600FBCD5D /* StatePattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StatePattern.storyboard; sourceTree = "<group>"; };
+		F329F10F244DCBC800FBCD5D /* VideoControllerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoControllerView.xib; sourceTree = "<group>"; };
+		F329F111244DCBF400FBCD5D /* VideoControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControllerView.swift; sourceTree = "<group>"; };
+		F329F114244DD92700FBCD5D /* VideoStateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStateType.swift; sourceTree = "<group>"; };
+		F329F116244DD9BB00FBCD5D /* PlayingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
+		F34A7F12244DDB0500744430 /* PauseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseState.swift; sourceTree = "<group>"; };
+		F34A7F14244DDBCF00744430 /* VideoContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContext.swift; sourceTree = "<group>"; };
+		F34A7F16244DDC3B00744430 /* PrepareState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareState.swift; sourceTree = "<group>"; };
+		F34A7F18244DE09100744430 /* SeekingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekingState.swift; sourceTree = "<group>"; };
+		F34A7F1A244DE2D900744430 /* SeekEndState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekEndState.swift; sourceTree = "<group>"; };
+		F34A7F1C244DF89700744430 /* SeekBeginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekBeginState.swift; sourceTree = "<group>"; };
 		F34CC8BB243C28FA006AC7EB /* MediatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorType.swift; sourceTree = "<group>"; };
 		F34CC8BD243C69B4006AC7EB /* Originator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Originator.swift; sourceTree = "<group>"; };
 		F34CC8BF243C69E0006AC7EB /* SeekState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekState.swift; sourceTree = "<group>"; };
@@ -80,6 +114,61 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F329F0FD244DC7E100FBCD5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F329F0FE244DC7E800FBCD5D /* Videos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F329F0FE244DC7E800FBCD5D /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				F329F102244DC81600FBCD5D /* co_chang_trai_viet_len_cay.mp4 */,
+				F329F101244DC81600FBCD5D /* ngay_mai_em_di.mp4 */,
+				F329F0FF244DC81400FBCD5D /* nguoi_tinh_mua_dong.mp4 */,
+				F329F100244DC81500FBCD5D /* xe_dap.mp4 */,
+				F329F103244DC81700FBCD5D /* yeu_xa.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		F329F109244DC87700FBCD5D /* State Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				F329F113244DD91600FBCD5D /* States */,
+				F329F10E244DCBB400FBCD5D /* ControllerViews */,
+				F329F10A244DC89000FBCD5D /* StatePatternViewController.swift */,
+				F329F10C244DC8A600FBCD5D /* StatePattern.storyboard */,
+			);
+			path = "State Pattern";
+			sourceTree = "<group>";
+		};
+		F329F10E244DCBB400FBCD5D /* ControllerViews */ = {
+			isa = PBXGroup;
+			children = (
+				F329F111244DCBF400FBCD5D /* VideoControllerView.swift */,
+				F329F10F244DCBC800FBCD5D /* VideoControllerView.xib */,
+			);
+			path = ControllerViews;
+			sourceTree = "<group>";
+		};
+		F329F113244DD91600FBCD5D /* States */ = {
+			isa = PBXGroup;
+			children = (
+				F34A7F14244DDBCF00744430 /* VideoContext.swift */,
+				F329F114244DD92700FBCD5D /* VideoStateType.swift */,
+				F34A7F16244DDC3B00744430 /* PrepareState.swift */,
+				F329F116244DD9BB00FBCD5D /* PlayingState.swift */,
+				F34A7F12244DDB0500744430 /* PauseState.swift */,
+				F34A7F1C244DF89700744430 /* SeekBeginState.swift */,
+				F34A7F18244DE09100744430 /* SeekingState.swift */,
+				F34A7F1A244DE2D900744430 /* SeekEndState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
 		F34CC8C1243C6A10006AC7EB /* Memento Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +207,10 @@
 		F354C755243B0E70008224E5 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F329F109244DC87700FBCD5D /* State Pattern */,
 				F354C76D243B5E0D008224E5 /* Mediator + Memento Pattern */,
 				F354C76A243B5DD3008224E5 /* Main */,
+				F329F0FD244DC7E100FBCD5D /* Resources */,
 				F354C77E243B6337008224E5 /* BaseNavigationController.swift */,
 				F354C76E243B5E27008224E5 /* DesignPattern.swift */,
 				F354C773243B5F06008224E5 /* StoryBoards.swift */,
@@ -224,10 +315,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F329F10D244DC8A600FBCD5D /* StatePattern.storyboard in Resources */,
 				F354C763243B0E71008224E5 /* LaunchScreen.storyboard in Resources */,
+				F329F110244DCBC800FBCD5D /* VideoControllerView.xib in Resources */,
+				F329F104244DC81700FBCD5D /* nguoi_tinh_mua_dong.mp4 in Resources */,
+				F329F108244DC81700FBCD5D /* yeu_xa.mp4 in Resources */,
 				F354C760243B0E71008224E5 /* Assets.xcassets in Resources */,
+				F329F106244DC81700FBCD5D /* ngay_mai_em_di.mp4 in Resources */,
+				F329F107244DC81700FBCD5D /* co_chang_trai_viet_len_cay.mp4 in Resources */,
 				F354C77B243B619D008224E5 /* MediatorPattern.storyboard in Resources */,
 				F354C779243B5F66008224E5 /* MainTableViewCell.xib in Resources */,
+				F329F105244DC81700FBCD5D /* xe_dap.mp4 in Resources */,
 				F354C75E243B0E70008224E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,13 +382,23 @@
 				F34CC8C0243C69E0006AC7EB /* SeekState.swift in Sources */,
 				F354C774243B5F06008224E5 /* StoryBoards.swift in Sources */,
 				F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */,
+				F34A7F1D244DF89700744430 /* SeekBeginState.swift in Sources */,
+				F34A7F19244DE09100744430 /* SeekingState.swift in Sources */,
+				F329F112244DCBF400FBCD5D /* VideoControllerView.swift in Sources */,
+				F34A7F1B244DE2D900744430 /* SeekEndState.swift in Sources */,
 				F35E07FE243C18B5005E3C11 /* SeekViewController.swift in Sources */,
 				F354C76C243B5DFD008224E5 /* MainViewController.swift in Sources */,
 				F354C76F243B5E27008224E5 /* DesignPattern.swift in Sources */,
+				F329F10B244DC89000FBCD5D /* StatePatternViewController.swift in Sources */,
 				F354C757243B0E70008224E5 /* AppDelegate.swift in Sources */,
 				F34CC8BC243C28FA006AC7EB /* MediatorType.swift in Sources */,
+				F34A7F13244DDB0500744430 /* PauseState.swift in Sources */,
 				F35E0800243C19FA005E3C11 /* SeekTabbarController.swift in Sources */,
 				F34CC8BE243C69B4006AC7EB /* Originator.swift in Sources */,
+				F34A7F17244DDC3B00744430 /* PrepareState.swift in Sources */,
+				F34A7F15244DDBCF00744430 /* VideoContext.swift in Sources */,
+				F329F115244DD92700FBCD5D /* VideoStateType.swift in Sources */,
+				F329F117244DD9BB00FBCD5D /* PlayingState.swift in Sources */,
 				F354C778243B5F66008224E5 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

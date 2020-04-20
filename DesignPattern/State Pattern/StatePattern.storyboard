@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--State Pattern View Controller-->
+        <scene sceneID="NQQ-1l-QCo">
+            <objects>
+                <viewController storyboardIdentifier="StatePatternViewController" id="asH-Xz-uRb" customClass="StatePatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bZj-Y0-YMy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg5-4G-Jem">
+                                <rect key="frame" x="0.0" y="44" width="414" height="233"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Eg5-4G-Jem" secondAttribute="height" multiplier="16:9" id="QQ3-hC-Pbs"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJn-Du-Mzo" customClass="VideoControllerView" customModule="DesignPattern" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="233"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Eg5-4G-Jem" firstAttribute="leading" secondItem="OPw-vw-oNL" secondAttribute="leading" id="9bU-Cq-1Fr"/>
+                            <constraint firstItem="zJn-Du-Mzo" firstAttribute="trailing" secondItem="Eg5-4G-Jem" secondAttribute="trailing" id="KwU-iA-E62"/>
+                            <constraint firstItem="OPw-vw-oNL" firstAttribute="trailing" secondItem="Eg5-4G-Jem" secondAttribute="trailing" id="OkM-vD-f8J"/>
+                            <constraint firstItem="zJn-Du-Mzo" firstAttribute="bottom" secondItem="Eg5-4G-Jem" secondAttribute="bottom" id="hDH-LJ-1dd"/>
+                            <constraint firstItem="zJn-Du-Mzo" firstAttribute="leading" secondItem="Eg5-4G-Jem" secondAttribute="leading" id="lML-8d-9LQ"/>
+                            <constraint firstItem="Eg5-4G-Jem" firstAttribute="top" secondItem="OPw-vw-oNL" secondAttribute="top" id="pVi-yQ-bdY"/>
+                            <constraint firstItem="zJn-Du-Mzo" firstAttribute="top" secondItem="Eg5-4G-Jem" secondAttribute="top" id="s6r-hg-1uu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OPw-vw-oNL"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoControllerView" destination="zJn-Du-Mzo" id="AzD-iR-64g"/>
+                        <outlet property="videoView" destination="Eg5-4G-Jem" id="35b-3h-e7w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vG7-bW-gor" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="464" y="-153"/>
+        </scene>
+    </scenes>
+</document>

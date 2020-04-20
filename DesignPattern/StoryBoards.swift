@@ -12,4 +12,6 @@ struct StoryBoards {
     static let main = UIStoryboard(name: "Main", bundle: nil)
     
     static let mediator = UIStoryboard(name: "MediatorPattern", bundle: nil)
+    
+    static let state = UIStoryboard(name: "StatePattern", bundle: nil)
 }

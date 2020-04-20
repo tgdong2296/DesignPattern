@@ -12,7 +12,8 @@ class MainViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let patterns: [DesignPattern] = [
-        .mediator
+        .mediator_memento,
+        .state
     ]
     
     override func viewDidLoad() {
@@ -53,8 +54,11 @@ extension MainViewController: UITableViewDelegate {
         var viewController = UIViewController()
         
         switch patterns[indexPath.row] {
-        case .mediator:
+        case .mediator_memento:
             viewController = SeekTabbarController()
+            
+        case .state:
+            viewController = StatePatternViewController.instantiate()
         }
         
         let navigationController = BaseNavigationController(rootViewController: viewController)

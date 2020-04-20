@@ -9,5 +9,7 @@
 import Foundation
 
 enum DesignPattern: String {
-    case mediator = "Mediator Pattern"
+    case mediator_memento = "Mediator + Memento Pattern"
+    
+    case state = "State Pattern"
 }

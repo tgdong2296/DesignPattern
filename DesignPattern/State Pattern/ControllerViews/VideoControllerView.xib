@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VideoControllerView" customModule="DesignPattern" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="xsJ-DV-Tt2" id="FqV-V7-6W3"/>
+                <outlet property="leftTimeLabel" destination="jsp-Yn-WOw" id="XSg-IW-g97"/>
+                <outlet property="playPauseButton" destination="jZ8-SL-Ved" id="Nnz-PR-DO7"/>
+                <outlet property="rightTimeLabel" destination="Y1p-KB-RYl" id="WGu-rA-D9l"/>
+                <outlet property="seekBar" destination="oJj-et-oeI" id="Bo9-wo-NC4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xsJ-DV-Tt2">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itg-yY-K95">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZ8-SL-Ved">
+                                    <rect key="frame" x="182" y="91.5" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="15p-d2-5uj"/>
+                                        <constraint firstAttribute="height" constant="50" id="Da6-dq-qW8"/>
+                                    </constraints>
+                                    <state key="normal" image="ic_play"/>
+                                    <connections>
+                                        <action selector="handlePlayPauseButtonTapped:" destination="-1" eventType="touchUpInside" id="PA3-zK-cIt"/>
+                                    </connections>
+                                </button>
+                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="oJj-et-oeI">
+                                    <rect key="frame" x="6" y="205" width="402" height="21"/>
+                                    <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="krq-lj-0Kf"/>
+                                    </constraints>
+                                    <connections>
+                                        <action selector="handleSeekBarValueChanged:event:" destination="-1" eventType="valueChanged" id="f7E-Zq-1hf"/>
+                                    </connections>
+                                </slider>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsp-Yn-WOw">
+                                    <rect key="frame" x="12" y="180" width="39" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1p-KB-RYl">
+                                    <rect key="frame" x="363" y="180" width="39" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="oJj-et-oeI" firstAttribute="top" secondItem="Y1p-KB-RYl" secondAttribute="bottom" constant="8" id="L8k-8A-Kik"/>
+                                <constraint firstItem="oJj-et-oeI" firstAttribute="leading" secondItem="Itg-yY-K95" secondAttribute="leading" constant="8" id="PG5-Xs-uAG"/>
+                                <constraint firstAttribute="bottom" secondItem="oJj-et-oeI" secondAttribute="bottom" constant="8" id="QHi-BG-KlM"/>
+                                <constraint firstItem="oJj-et-oeI" firstAttribute="top" secondItem="jsp-Yn-WOw" secondAttribute="bottom" constant="8" id="YxC-gm-DnX"/>
+                                <constraint firstAttribute="trailing" secondItem="Y1p-KB-RYl" secondAttribute="trailing" constant="12" id="ifp-eq-KWr"/>
+                                <constraint firstItem="jZ8-SL-Ved" firstAttribute="centerX" secondItem="Itg-yY-K95" secondAttribute="centerX" id="yI4-Ge-d3p"/>
+                                <constraint firstAttribute="trailing" secondItem="oJj-et-oeI" secondAttribute="trailing" constant="8" id="ySj-pq-3q7"/>
+                                <constraint firstItem="jsp-Yn-WOw" firstAttribute="leading" secondItem="Itg-yY-K95" secondAttribute="leading" constant="12" id="yba-BB-B7M"/>
+                                <constraint firstItem="jZ8-SL-Ved" firstAttribute="centerY" secondItem="Itg-yY-K95" secondAttribute="centerY" id="z9K-52-hVR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Itg-yY-K95" firstAttribute="leading" secondItem="xsJ-DV-Tt2" secondAttribute="leading" id="BWd-ip-kVR"/>
+                        <constraint firstItem="Itg-yY-K95" firstAttribute="top" secondItem="xsJ-DV-Tt2" secondAttribute="top" id="Do4-Hn-E7J"/>
+                        <constraint firstAttribute="trailing" secondItem="Itg-yY-K95" secondAttribute="trailing" id="IAe-1R-6E6"/>
+                        <constraint firstAttribute="bottom" secondItem="Itg-yY-K95" secondAttribute="bottom" id="yxN-NH-1x5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xsJ-DV-Tt2" secondAttribute="trailing" id="8jX-wK-F1G"/>
+                <constraint firstItem="xsJ-DV-Tt2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="K9W-J3-cd9"/>
+                <constraint firstItem="xsJ-DV-Tt2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bAn-jo-d2c"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xsJ-DV-Tt2" secondAttribute="bottom" id="klJ-BJ-jnK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="137.61160714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_play" width="96" height="96"/>
+    </resources>
+</document>
