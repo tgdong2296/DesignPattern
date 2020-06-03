@@ -41,6 +41,8 @@
 		F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F354C77E243B6337008224E5 /* BaseNavigationController.swift */; };
 		F35E07FE243C18B5005E3C11 /* SeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E07FD243C18B5005E3C11 /* SeekViewController.swift */; };
 		F35E0800243C19FA005E3C11 /* SeekTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35E07FF243C19FA005E3C11 /* SeekTabbarController.swift */; };
+		F3DF815524741FF900458408 /* DecoratorPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DF815424741FF900458408 /* DecoratorPattern.storyboard */; };
+		F3DF81572474200800458408 /* DecoratorPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DF81562474200800458408 /* DecoratorPatternViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		F354C77E243B6337008224E5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		F35E07FD243C18B5005E3C11 /* SeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekViewController.swift; sourceTree = "<group>"; };
 		F35E07FF243C19FA005E3C11 /* SeekTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekTabbarController.swift; sourceTree = "<group>"; };
+		F3DF815424741FF900458408 /* DecoratorPattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DecoratorPattern.storyboard; sourceTree = "<group>"; };
+		F3DF81562474200800458408 /* DecoratorPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPatternViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,13 @@
 				DFE1BBA2AC57758F541CD329 /* Pods-DesignPattern.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F304DE9C24877A4B00B7A24D /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		F329F0FD244DC7E100FBCD5D /* Resources */ = {
@@ -207,6 +218,8 @@
 		F354C755243B0E70008224E5 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F304DE9C24877A4B00B7A24D /* Observer */,
+				F3DF815324741FB800458408 /* Decorator */,
 				F329F109244DC87700FBCD5D /* State Pattern */,
 				F354C76D243B5E0D008224E5 /* Mediator + Memento Pattern */,
 				F354C76A243B5DD3008224E5 /* Main */,
@@ -252,6 +265,15 @@
 				F354C777243B5F66008224E5 /* MainTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		F3DF815324741FB800458408 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				F3DF81562474200800458408 /* DecoratorPatternViewController.swift */,
+				F3DF815424741FF900458408 /* DecoratorPattern.storyboard */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +345,7 @@
 				F354C760243B0E71008224E5 /* Assets.xcassets in Resources */,
 				F329F106244DC81700FBCD5D /* ngay_mai_em_di.mp4 in Resources */,
 				F329F107244DC81700FBCD5D /* co_chang_trai_viet_len_cay.mp4 in Resources */,
+				F3DF815524741FF900458408 /* DecoratorPattern.storyboard in Resources */,
 				F354C77B243B619D008224E5 /* MediatorPattern.storyboard in Resources */,
 				F354C779243B5F66008224E5 /* MainTableViewCell.xib in Resources */,
 				F329F105244DC81700FBCD5D /* xe_dap.mp4 in Resources */,
@@ -379,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DF81572474200800458408 /* DecoratorPatternViewController.swift in Sources */,
 				F34CC8C0243C69E0006AC7EB /* SeekState.swift in Sources */,
 				F354C774243B5F06008224E5 /* StoryBoards.swift in Sources */,
 				F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */,

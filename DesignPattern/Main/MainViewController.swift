@@ -13,7 +13,8 @@ class MainViewController: UIViewController {
     
     let patterns: [DesignPattern] = [
         .mediator_memento,
-        .state
+        .state,
+        .decorator
     ]
     
     override func viewDidLoad() {
@@ -59,6 +60,9 @@ extension MainViewController: UITableViewDelegate {
             
         case .state:
             viewController = StatePatternViewController.instantiate()
+            
+        case .decorator:
+            viewController = DecoratorPatternViewController.instantiate()
         }
         
         let navigationController = BaseNavigationController(rootViewController: viewController)

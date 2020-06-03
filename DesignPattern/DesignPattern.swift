@@ -12,4 +12,8 @@ enum DesignPattern: String {
     case mediator_memento = "Mediator + Memento Pattern"
     
     case state = "State Pattern"
+    
+    case decorator = "Decorator Pattern"
+    
+//    case observer = "Observer Pattern"
 }
