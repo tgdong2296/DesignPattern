@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4538E367A1E781EBEA15F14F /* Pods_DesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */; };
+		F304DE9E24877B4F00B7A24D /* ObserverPattern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F304DE9D24877B4F00B7A24D /* ObserverPattern.storyboard */; };
+		F304DEA024877B6400B7A24D /* ObserverPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304DE9F24877B6400B7A24D /* ObserverPatternViewController.swift */; };
+		F304DEA22487819500B7A24D /* ObservableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304DEA12487819500B7A24D /* ObservableOptions.swift */; };
+		F304DEA4248781E100B7A24D /* ObservableCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304DEA3248781E100B7A24D /* ObservableCallback.swift */; };
+		F304DEA62487824C00B7A24D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304DEA52487824C00B7A24D /* Observable.swift */; };
+		F304DEA9248788DD00B7A24D /* PointCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304DEA8248788DD00B7A24D /* PointCounter.swift */; };
 		F329F104244DC81700FBCD5D /* nguoi_tinh_mua_dong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F0FF244DC81400FBCD5D /* nguoi_tinh_mua_dong.mp4 */; };
 		F329F105244DC81700FBCD5D /* xe_dap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F100244DC81500FBCD5D /* xe_dap.mp4 */; };
 		F329F106244DC81700FBCD5D /* ngay_mai_em_di.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F329F101244DC81600FBCD5D /* ngay_mai_em_di.mp4 */; };
@@ -49,6 +55,12 @@
 		720FB3E794A91E43D501F567 /* Pods-DesignPattern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.debug.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.debug.xcconfig"; sourceTree = "<group>"; };
 		DF13556FF4D08C786789F61F /* Pods_DesignPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE1BBA2AC57758F541CD329 /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
+		F304DE9D24877B4F00B7A24D /* ObserverPattern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObserverPattern.storyboard; sourceTree = "<group>"; };
+		F304DE9F24877B6400B7A24D /* ObserverPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPatternViewController.swift; sourceTree = "<group>"; };
+		F304DEA12487819500B7A24D /* ObservableOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableOptions.swift; sourceTree = "<group>"; };
+		F304DEA3248781E100B7A24D /* ObservableCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCallback.swift; sourceTree = "<group>"; };
+		F304DEA52487824C00B7A24D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		F304DEA8248788DD00B7A24D /* PointCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCounter.swift; sourceTree = "<group>"; };
 		F329F0FF244DC81400FBCD5D /* nguoi_tinh_mua_dong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nguoi_tinh_mua_dong.mp4; sourceTree = "<group>"; };
 		F329F100244DC81500FBCD5D /* xe_dap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xe_dap.mp4; sourceTree = "<group>"; };
 		F329F101244DC81600FBCD5D /* ngay_mai_em_di.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ngay_mai_em_di.mp4; sourceTree = "<group>"; };
@@ -121,8 +133,22 @@
 		F304DE9C24877A4B00B7A24D /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				F304DEA72487884400B7A24D /* ObservableComponents */,
+				F304DEA8248788DD00B7A24D /* PointCounter.swift */,
+				F304DE9F24877B6400B7A24D /* ObserverPatternViewController.swift */,
+				F304DE9D24877B4F00B7A24D /* ObserverPattern.storyboard */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		F304DEA72487884400B7A24D /* ObservableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F304DEA12487819500B7A24D /* ObservableOptions.swift */,
+				F304DEA3248781E100B7A24D /* ObservableCallback.swift */,
+				F304DEA52487824C00B7A24D /* Observable.swift */,
+			);
+			path = ObservableComponents;
 			sourceTree = "<group>";
 		};
 		F329F0FD244DC7E100FBCD5D /* Resources */ = {
@@ -350,6 +376,7 @@
 				F354C779243B5F66008224E5 /* MainTableViewCell.xib in Resources */,
 				F329F105244DC81700FBCD5D /* xe_dap.mp4 in Resources */,
 				F354C75E243B0E70008224E5 /* Main.storyboard in Resources */,
+				F304DE9E24877B4F00B7A24D /* ObserverPattern.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +429,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F304DEA62487824C00B7A24D /* Observable.swift in Sources */,
 				F3DF81572474200800458408 /* DecoratorPatternViewController.swift in Sources */,
 				F34CC8C0243C69E0006AC7EB /* SeekState.swift in Sources */,
+				F304DEA4248781E100B7A24D /* ObservableCallback.swift in Sources */,
 				F354C774243B5F06008224E5 /* StoryBoards.swift in Sources */,
 				F354C77F243B6337008224E5 /* BaseNavigationController.swift in Sources */,
 				F34A7F1D244DF89700744430 /* SeekBeginState.swift in Sources */,
@@ -411,6 +440,7 @@
 				F329F112244DCBF400FBCD5D /* VideoControllerView.swift in Sources */,
 				F34A7F1B244DE2D900744430 /* SeekEndState.swift in Sources */,
 				F35E07FE243C18B5005E3C11 /* SeekViewController.swift in Sources */,
+				F304DEA024877B6400B7A24D /* ObserverPatternViewController.swift in Sources */,
 				F354C76C243B5DFD008224E5 /* MainViewController.swift in Sources */,
 				F354C76F243B5E27008224E5 /* DesignPattern.swift in Sources */,
 				F329F10B244DC89000FBCD5D /* StatePatternViewController.swift in Sources */,
@@ -420,10 +450,12 @@
 				F35E0800243C19FA005E3C11 /* SeekTabbarController.swift in Sources */,
 				F34CC8BE243C69B4006AC7EB /* Originator.swift in Sources */,
 				F34A7F17244DDC3B00744430 /* PrepareState.swift in Sources */,
+				F304DEA9248788DD00B7A24D /* PointCounter.swift in Sources */,
 				F34A7F15244DDBCF00744430 /* VideoContext.swift in Sources */,
 				F329F115244DD92700FBCD5D /* VideoStateType.swift in Sources */,
 				F329F117244DD9BB00FBCD5D /* PlayingState.swift in Sources */,
 				F354C778243B5F66008224E5 /* MainTableViewCell.swift in Sources */,
+				F304DEA22487819500B7A24D /* ObservableOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

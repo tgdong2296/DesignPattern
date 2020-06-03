@@ -16,4 +16,6 @@ struct StoryBoards {
     static let state = UIStoryboard(name: "StatePattern", bundle: nil)
     
     static let decorator = UIStoryboard(name: "DecoratorPattern", bundle: nil)
+    
+    static let observer = UIStoryboard(name: "ObserverPattern", bundle: nil)
 }

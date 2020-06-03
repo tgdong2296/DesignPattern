@@ -15,5 +15,5 @@ enum DesignPattern: String {
     
     case decorator = "Decorator Pattern"
     
-//    case observer = "Observer Pattern"
+    case observer = "Observer Pattern"
 }
